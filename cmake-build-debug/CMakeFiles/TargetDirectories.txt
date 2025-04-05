@@ -1,0 +1,5 @@
+/home/egor/ParProgr/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/egor/ParProgr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/egor/ParProgr/cmake-build-debug/HelloWorld/CMakeFiles/helloworld.dir
+/home/egor/ParProgr/cmake-build-debug/HelloWorld/CMakeFiles/edit_cache.dir
+/home/egor/ParProgr/cmake-build-debug/HelloWorld/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1576 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Linux - 6.8.0-52-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/egor/ParProgr/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/egor/ParProgr/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nCc3Zu"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nCc3Zu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nCc3Zu'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_93d26
+        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -c /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_93d26.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccu86nhc.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/'
+         as -v --64 -o CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o /tmp/ccu86nhc.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v -Wl,-v  -rdynamic CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -o cmTC_93d26   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_93d26' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93d26.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr2D7wN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93d26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr2D7wN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93d26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_93d26' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93d26.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nCc3Zu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_93d26]
+        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -c /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_93d26.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccu86nhc.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o /tmp/ccu86nhc.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v -Wl -v  -rdynamic CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -o cmTC_93d26   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_93d26' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93d26.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr2D7wN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93d26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccr2D7wN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_93d26] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr2D7wN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_93d26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_93d26.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dZYPqP"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dZYPqP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dZYPqP'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_6792a
+        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6792a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc98IhrR.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc98IhrR.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v  -rdynamic CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6792a   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6792a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6792a.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsO8o1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6792a /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 13.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsO8o1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6792a /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6792a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6792a.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dZYPqP']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_6792a]
+        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6792a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc98IhrR.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc98IhrR.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v  -rdynamic CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6792a   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6792a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6792a.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsO8o1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6792a /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccsO8o1R.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6792a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsO8o1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6792a /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_6792a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pd7C45"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pd7C45"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pd7C45'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_57cd3
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_57cd3.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pd7C45/test_mpi.c
+        [2/2] : && /usr/bin/cc  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_57cd3.dir/test_mpi.c.o -o cmTC_57cd3  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YfUGL9"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YfUGL9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YfUGL9'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_c8beb
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_c8beb.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YfUGL9/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_c8beb.dir/test_mpi.cpp.o -o cmTC_c8beb  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0YBi7Q"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0YBi7Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0YBi7Q'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_f2b14
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_f2b14.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0YBi7Q/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_f2b14.dir/test_mpi.cpp.o -o cmTC_f2b14  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0VYfEx"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0VYfEx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0VYfEx'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_51c87
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_51c87.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0VYfEx/test_mpi.c
+        [2/2] : && /usr/bin/cc  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_51c87.dir/test_mpi.c.o -o cmTC_51c87  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OB2MFz"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OB2MFz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OB2MFz'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_b04c7
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_b04c7.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OB2MFz/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_b04c7.dir/test_mpi.cpp.o -o cmTC_b04c7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jb0jZE"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jb0jZE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jb0jZE'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_b9225
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_b9225.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jb0jZE/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_b9225.dir/test_mpi.cpp.o -o cmTC_b9225  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwYWjp"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwYWjp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwYWjp'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_4df77
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_4df77.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwYWjp/test_mpi.c
+        [2/2] : && /usr/bin/cc  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_4df77.dir/test_mpi.c.o -o cmTC_4df77  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-92QwUL"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-92QwUL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-92QwUL'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_ebbee
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_ebbee.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-92QwUL/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_ebbee.dir/test_mpi.cpp.o -o cmTC_ebbee  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NDynhJ"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NDynhJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NDynhJ'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_6ba09
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_6ba09.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NDynhJ/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_6ba09.dir/test_mpi.cpp.o -o cmTC_6ba09  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:15 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nE5t8r"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nE5t8r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nE5t8r'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_79c84
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_79c84.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nE5t8r/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_79c84.dir/test_mpi.c.o -o cmTC_79c84  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:15 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ahsvIs"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ahsvIs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ahsvIs'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_82102
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_82102.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ahsvIs/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_82102.dir/test_mpi.cpp.o -o cmTC_82102  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:15 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VBTGcM"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VBTGcM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VBTGcM'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_88d81
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_88d81.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VBTGcM/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_88d81.dir/test_mpi.cpp.o -o cmTC_88d81  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:20 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aKNK1y"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aKNK1y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/egor/ParProgr/cmake/modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aKNK1y'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_31f63
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_31f63.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aKNK1y/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_31f63.dir/test_mpi.c.o -o cmTC_31f63  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:20 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oiwEJH"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oiwEJH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/egor/ParProgr/cmake/modules"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oiwEJH'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_f61b9
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_f61b9.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oiwEJH/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_f61b9.dir/test_mpi.cpp.o -o cmTC_f61b9  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:20 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUNtJo"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUNtJo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/egor/ParProgr/cmake/modules"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUNtJo'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_cc744
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_cc744.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUNtJo/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_cc744.dir/test_mpi.cpp.o -o cmTC_cc744  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23xkE6"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23xkE6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23xkE6'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_9e0ce
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_9e0ce.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23xkE6/test_mpi.c
+        [2/2] : && /usr/bin/cc  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_9e0ce.dir/test_mpi.c.o -o cmTC_9e0ce  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oe86qG"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oe86qG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oe86qG'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_f1b61
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_f1b61.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oe86qG/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_f1b61.dir/test_mpi.cpp.o -o cmTC_f1b61  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lncLET"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lncLET"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lncLET'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_5551a
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_5551a.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lncLET/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -rdynamic  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_5551a.dir/test_mpi.cpp.o -o cmTC_5551a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6R00M9"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6R00M9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6R00M9'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_4b9bd
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_4b9bd.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6R00M9/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_4b9bd.dir/test_mpi.c.o -o cmTC_4b9bd  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IRkq14"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IRkq14"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IRkq14'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_88780
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_88780.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IRkq14/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_88780.dir/test_mpi.cpp.o -o cmTC_88780  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CyxGmm"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CyxGmm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CyxGmm'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_b3c65
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_b3c65.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CyxGmm/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_b3c65.dir/test_mpi.cpp.o -o cmTC_b3c65  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pxkmcd"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pxkmcd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pxkmcd'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_8b06b
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_8b06b.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pxkmcd/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_8b06b.dir/test_mpi.c.o -o cmTC_8b06b  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t138iS"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t138iS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t138iS'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_4c365
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_4c365.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t138iS/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_4c365.dir/test_mpi.cpp.o -o cmTC_4c365  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5FtLE9"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5FtLE9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5FtLE9'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_8b09f
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_8b09f.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5FtLE9/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_8b09f.dir/test_mpi.cpp.o -o cmTC_8b09f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ndmqVW"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ndmqVW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ndmqVW'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_e63cf
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_e63cf.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ndmqVW/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_e63cf.dir/test_mpi.c.o -o cmTC_e63cf  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I8tyTP"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I8tyTP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I8tyTP'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_aef53
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_aef53.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I8tyTP/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_aef53.dir/test_mpi.cpp.o -o cmTC_aef53  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BR4S4x"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BR4S4x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BR4S4x'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_31ee4
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_31ee4.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BR4S4x/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_31ee4.dir/test_mpi.cpp.o -o cmTC_31ee4  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ezjJih"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ezjJih"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ezjJih'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_ea6a8
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_ea6a8.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ezjJih/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_ea6a8.dir/test_mpi.c.o -o cmTC_ea6a8  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-47iNKa"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-47iNKa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-47iNKa'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_ef45f
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_ef45f.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-47iNKa/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_ef45f.dir/test_mpi.cpp.o -o cmTC_ef45f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9OVApw"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9OVApw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9OVApw'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_1f0a1
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_1f0a1.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9OVApw/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_1f0a1.dir/test_mpi.cpp.o -o cmTC_1f0a1  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44qRaY"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44qRaY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44qRaY'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_c11a3
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_c11a3.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44qRaY/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_c11a3.dir/test_mpi.c.o -o cmTC_c11a3  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vnfQyY"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vnfQyY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vnfQyY'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_a9db1
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_a9db1.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vnfQyY/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_a9db1.dir/test_mpi.cpp.o -o cmTC_a9db1  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08RisO"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08RisO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08RisO'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_796ba
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_796ba.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08RisO/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_796ba.dir/test_mpi.cpp.o -o cmTC_796ba  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZHWhSp"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZHWhSp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZHWhSp'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_b3722
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu99 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_b3722.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZHWhSp/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_b3722.dir/test_mpi.c.o -o cmTC_b3722  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I5dyRI"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I5dyRI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I5dyRI'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_8cd25
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_8cd25.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I5dyRI/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_8cd25.dir/test_mpi.cpp.o -o cmTC_8cd25  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ViqRbv"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ViqRbv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ViqRbv'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_fde1c
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -std=gnu++17 -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_fde1c.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ViqRbv/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_fde1c.dir/test_mpi.cpp.o -o cmTC_fde1c  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Vg8qp6"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Vg8qp6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Vg8qp6'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_55332
+        [1/2] /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_55332.dir/test_mpi.c.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Vg8qp6/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_55332.dir/test_mpi.c.o -o cmTC_55332  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VrWnu7"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VrWnu7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VrWnu7'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_048cf
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_048cf.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VrWnu7/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_048cf.dir/test_mpi.cpp.o -o cmTC_048cf  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/clion-2024.2.0.1/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "HelloWorld/CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zr5QOn"
+      binary: "/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zr5QOn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zr5QOn'
+        
+        Run Build Command(s): /opt/clion-2024.2.0.1/bin/ninja/linux/x64/ninja -v cmTC_11678
+        [1/2] /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/mpich/include -fdiagnostics-color=always -flto=auto -ffat-lto-objects -o CMakeFiles/cmTC_11678.dir/test_mpi.cpp.o -c /home/egor/ParProgr/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zr5QOn/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-Bsymbolic-functions CMakeFiles/cmTC_11678.dir/test_mpi.cpp.o -o cmTC_11678  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/mpich/lib  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpichcxx.so  /usr/lib/x86_64-linux-gnu/mpich/lib/libmpich.so && :
+        
+      exitCode: 0
+...
