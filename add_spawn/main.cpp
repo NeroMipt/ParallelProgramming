@@ -1,28 +1,27 @@
+#include <mpi/mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <mpi/mpi.h>
 
-#define NUM_SPAWNS 2
+int main(int argc, char *argv[]) {
+    MPI_Init(&argc, &argv);
+    int world_rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
 
-int main( int argc, char *argv[] )
-{
-    int np = NUM_SPAWNS;
-    int errcodes[NUM_SPAWNS];
-    MPI_Comm parentcomm, intercomm;
+    MPI_Comm intercomm;
+    int errors[4];
 
-    MPI_Init( &argc, &argv );
-    MPI_Comm_get_parent( &parentcomm );
-    if (parentcomm == MPI_COMM_NULL)
-    {
 
-        MPI_Comm_spawn( "helloworld", MPI_ARGV_NULL, np, MPI_INFO_NULL, 0, MPI_COMM_WORLD, &intercomm, errcodes );
-        printf("I'm the parent.\n");
+    MPI_Comm_spawn("./worker", MPI_ARGV_NULL, 4, MPI_INFO_NULL, 0, MPI_COMM_SELF, &intercomm, errors);
+
+    for (int i = 0; i < 4; i++) {
+        if (errors[i] != MPI_SUCCESS) {
+            MPI_Abort(MPI_COMM_WORLD, 1);
+        }
     }
-    else
-    {
-        printf("I'm the spawned.\n");
-    }
-    fflush(stdout);
+
+
+
+    MPI_Comm_disconnect(&intercomm);
     MPI_Finalize();
     return 0;
 }
