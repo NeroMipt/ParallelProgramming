@@ -1,7 +1,7 @@
 //
 // Created by egor on 4/8/25.
 //
-#include<mpich/mpi.h>
+#include<mpi/mpi.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
