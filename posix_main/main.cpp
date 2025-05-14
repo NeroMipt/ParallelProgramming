@@ -3,6 +3,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <sys/time.h>
+#include <iomanip>
 
 // Глобальные структуры данных
 struct SharedData {
@@ -23,11 +24,11 @@ struct Task {
 SharedData sdat;
 Task* global_stack = nullptr;
 const int nproc = 1;
-const double eps = 1e-7;
+const double eps = 1e-8;
 
 // Функция для вычисления
 double fun(double x) {
-    return cos(1.0 / (x*x*x));
+    return cos(1.0 / (x));
 }
 
 
@@ -152,7 +153,7 @@ int main() {
 
 
     global_stack[0].a = 0.01;
-    global_stack[0].b = 1.0;
+    global_stack[0].b = 8.0;
     global_stack[0].fa = fun(global_stack[0].a);
     global_stack[0].fb = fun(global_stack[0].b);
     global_stack[0].sab = (global_stack[0].fa + global_stack[0].fb) *
@@ -177,7 +178,7 @@ int main() {
     elapsed += (te.tv_usec - ts.tv_usec);
     std::cout << "Elapsed time: " << elapsed << std::endl;
 
-    std::cout << "Integral of cos(1/x) from 0.001 to 1.0 = " << sdat.s_all << std::endl;
+    std::cout << "Integral of cos(1/x) from 0.001 to 8.0 = " << std::setprecision(8) << sdat.s_all << std::endl;
 
 
     delete[] global_stack;
